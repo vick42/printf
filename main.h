@@ -30,11 +30,12 @@ struct fmt
 	int (*fn)(va_list, char[], int, int, int, int);
 };
 
+
 /**
  * typedef struct fmt fmt_t - Struct op
  *
  * @fmt: The format.
- * @ft_t: The function associated.
+ * @fm_t: The function associated.
  */
 typedef struct fmt fmt_t;
 
